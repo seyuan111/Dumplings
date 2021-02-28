@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.Food{
+    height: 100vh;
+    background-image: url(ChineseFood.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.Dump{
+    display: flex;
+    padding: 30px;
+}
+
+.logo img{
+    height: 70px;
+    width: 70px;
+    padding: 20px;
+    margin-top: 10px;
+}
+.Nav{
+    flex: 2;
+}
+
+.Nav ul{
+    margin: 40px;
+    display: inline;
+}
+
+.Nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 30px;
+}
+.Nav ul a{
+    color: white;
+    text-decoration: none;
+}
+.order{
+    padding: 5px 5px;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.Nav .order{
+    float: right;
+}
+.Welcome{
+    margin: 70px;
+    color: white;
+}
+
+.Welcome h1{
+    font-size: 50px;
+}
+.social{
+    height: 50%;
+    color: lightgreen;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+.search{
+    height: 60%;
+    margin: 10px;
+}
+.search .fa{
+    margin: 30px 5px;
+    display: block;
+    font-size: 25px;
+    cursor: pointer;
+}
+.media{
+    height: 35%;
+    width: 80px;
+    color: lightblue;
+    text-align: center;
+    bottom: 0;
+    position: absolute;
+}
+
+.social .fa{
+    margin: 15px 23px;
+    display: block;
+    padding: 6px;
+    cursor: pointer;
+}
